@@ -2,8 +2,8 @@ body{
     background-color: rgb(233, 231, 231);
 }
 .search-bar{
-    padding: 0px 400px 0px 200px;
-    margin-left: 50px;
+    padding: 0px 300px 0px 70px;
+    margin-left: 100px;
 }
 #searchResultSection{
     margin-top: 100px;

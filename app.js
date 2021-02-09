@@ -52,14 +52,14 @@ function displayDetails(id) {
             }
             const displaySection = document.createElement('div');
             const foodDetailsCard =
-                ` <div class="card shadow rounded " style="width: 30rem;">
-            <img src="${clickedFoodImage}" class="card-img-top" alt="Food Thumb">
-            <div class="card-body">
-                <h4 class="card-title">${clickedFoodName}</h4><br>
-                <h6> Ingredients </h6>
-                <ul>${ingredients}</ul>
-            </div>
-            </div> `
+                ` <div class="card shadow rounded " style="width: 25rem;">
+                    <img src="${clickedFoodImage}" class="card-img-top" alt="Food Thumb">
+                    <div class="card-body">
+                        <h4 class="card-title">${clickedFoodName}</h4><br>
+                        <h6> Ingredients </h6>
+                        <ul>${ingredients}</ul>
+                    </div>
+                    </div> `
             displaySection.innerHTML = foodDetailsCard;
             document.getElementById("clickedFoodDetailsSection").appendChild(displaySection);
 
